@@ -1,0 +1,139 @@
+html {
+    width: 960px;
+    margin: auto;
+}
+
+nav {
+    list-style-type: none;
+    overflow: hidden;;
+    border-bottom: 10px solid #989898;
+    margin-bottom: 30px;
+}
+
+#logo {
+    float: left;
+    padding-bottom: 10px;
+}
+
+nav article {
+    float: left;
+    display: inline;
+}
+article h2 {
+    font-size: 26px;
+}
+article span {
+    font-size: 12px;
+}
+
+ nav ul {
+        float: right;
+        margin: 15px 0px 10px 5px;
+}
+
+nav li {
+	display: inline;	
+}
+
+nav li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Main Body */
+
+#title h1 {
+    font-size: 32px;
+}
+
+#print {
+    float: right;
+}
+
+#hero {
+    width: 960px;
+    margin: 20px 0px;
+}
+
+main p {
+    font-size: 20px;
+    text-indent: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#imglist {
+    width: 960px;
+}
+
+#list {
+    position: relative;
+}
+
+main ul{
+    position: absolute;
+    font-size: 22px;
+    list-style-type: circle;
+}
+
+.cross{
+    text-decoration: line-through;
+}
+
+main li{
+    padding: 8px;
+}
+
+#listone {
+    top: 25px;
+    left: 100px;
+}
+
+#listtwo {
+    top: 25px;
+    right: 15px;
+}
+
+footer{
+    width: 960px;
+    border-top: 10px solid #989898;
+    margin-top: 30px;
+}
+
+#van {
+    float: left;
+    padding-top: 10px;
+}
+
+footer article{
+    display: inline-block;
+    margin: 20px;
+}
+
+button {
+    float: right;
+    background-color: #bc7058;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+#last {
+    text-align: center;
+    margin: auto;
+}
+footer span{
+    display: block;
+    text-align: center;
+}
+
+#smalllogo{
+    text-align: center;
+}
