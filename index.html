@@ -3,16 +3,19 @@
 
 <head>
 	<title>Chocolate Pizza</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="reset.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
 
 	<header>
 		<nav>
-			<img src="img/logo.png" />
-			<h2>Delicous</h2>
-			<span>THE BEST FOOD BLOG ON THE WEB</span>
+				<img src="img/logo.png" id="logo"/>
+			<article>
+				<h2>Delicous</h2>
+				<span>THE BEST FOOD BLOG ON THE WEB</span>
+			</article>
 			<ul>
 				<li><img src="img/fb-icon.png" /></li>
 				<li><img src="img/twit-icon.png" /></li>
@@ -28,12 +31,14 @@
 	</header>
 
 	<main>
+		<article id="title">
+			<h1>Chocolate Pizza</h1>
+			<span>POSTED ON 15 DEC 2013 / DESSERTS</span>
+			<span id="print"><img src="img/print-icon.png" />PRINT</span>
+		</article>
 
-		<h1>Chocolate Pizza</h1>
-		<span>POSTED ON 15 DEC 2013 / DESSERTS</span>
-		<span><img src="img/print-icon.png" />PRINT</span>
-
-		<img src="img/choco-pizza.png" alt="Herp" title="Chocolate Pizza" />
+		<img src="img/choco-pizza.png" alt="Hero image" title="Chocolate Pizza" id="hero"/>
+		<article>
 		<p>
 			For the fig swirl: Melt the nutter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you hvae a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
 		</p>
@@ -43,9 +48,10 @@
 		<p>
 			Using an ice cream machinem, pour liquids into the frozen basin and priocess according to manufacturer instructions, i.ew.m let spion and thicken for 20 minutes before adding mascarpinem fig jam mixture, and the nuts. Continue to priocess for +/- 10 minutes, Pour semi-frozen micture into a pyrex dish oir fladd tupperware. Freeze for at least two hours before serving.
 		</p>
-		<article>
-		<img src="img/list-bg.png" />
-		<ul>
+		</article>
+		<article id="list">
+		<img src="img/list-bg.png" id="imglist" />
+		<ul id="listone">
 			<li>1 1/2 cups milk</li>
 			<li>1/2 cup mascarpone</li>
 			<li>1/2 tsp pink salt</li>
@@ -53,10 +59,10 @@
 			<li>1/2 cup brown sugar</li>
 			<li>2-4 tbsp water</li>
 		</ul>
-		<ul>
+		<ul id="listtwo">
 				<li>1 1/2 cups heavy cream</li>
-				<li>1/3 granulated sugar</li>
-				<li>2 egg yolks</li>
+				<li class="cross">1/3 granulated sugar</li>
+				<li class="cross">2 egg yolks</li>
 				<li>1 lemon, juiced</li>
 				<li>2 tbsp butter</li>
 				<li>1 cup honey roasted pecans, roughly chopped</li>
@@ -65,13 +71,17 @@
 	</main>
 	
 	<footer>
-		<img src="img/van-pic.png" />
+		<img src="img/van-pic.png" id="van"/>
+		<article>
 		<h3>Vanessa Stevenson</h3>
 		<p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+		</article>
 		<button>Share Recipe</button>
-		<img src="img/small-logo.png">
+		<article id="last">
+		<img src="img/small-logo.png" id="smalllogo"><hr>
 		<span>Delicous @ 2013 + All Right Reserved.</span>
 		<span>Proudly published with Ghost.</span>
+		</article>
 	</footer>
 
 </body>
